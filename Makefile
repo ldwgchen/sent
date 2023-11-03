@@ -30,6 +30,7 @@ cscope: ${SRC} config.h
 
 clean:
 	rm -f sent ${OBJ} sent-${VERSION}.tar.gz
+	rm -f config.h
 
 dist: clean
 	mkdir -p sent-${VERSION}
